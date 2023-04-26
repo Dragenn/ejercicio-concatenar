@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        String[] palabras = {"Hola", "a", "todos", "los", "amigos"};
+        String resultado = "";
+
+        for (String palabra : palabras) {
+            resultado += palabra + " ";
+        }
+
+        System.out.println(resultado.trim());
+    }
+}
